@@ -7,7 +7,7 @@ sections.forEach((step, i) => {
     ScrollTrigger.create({
         trigger:step,
         start:"bottom bottom",
-        end: "+=13000",
+        end: "+=2000",
         pin: true,
         anticipatePin: 1,
     });
@@ -16,7 +16,7 @@ let tl = gsap.timeline({
   scrollTrigger: {
     trigger: "video",
     start: "top top",
-    end: "bottom+=2000% bottom",
+    end: "+=7500",
     scrub: true,
   }
 });
