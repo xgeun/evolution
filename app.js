@@ -7,7 +7,7 @@ sections.forEach((step, i) => {
     ScrollTrigger.create({
         trigger:step,
         start:"bottom bottom",
-        end: "+=3000",
+        end: "+=13000",
         pin: true,
         anticipatePin: 1,
     });
